@@ -12,7 +12,14 @@ namespace revisão
         public string marca { get; set; }
         public  string modelo { get; set; }
         public string cor { get; set; }
-        public string placac { get; set; }
+        public string Placa { get;  set; }
+     
+        public Automovel(string placa) {
+        
+       Placa= placa="1212vsdfd";
+        
+        }  
+     
 
     }
 

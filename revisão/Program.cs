@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using revisão;
+Automovel automovel=new Automovel("1212fd1");
+Pessoa p = new Pessoa();
+p.contratar();
+var f = new funcionario();
+f.verificarVeiculo(automovel);
+
+

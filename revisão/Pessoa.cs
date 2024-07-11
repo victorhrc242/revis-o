@@ -13,9 +13,9 @@ namespace revisão
         public string nome { get; set; }
         public Boolean contratar()
         {
+            Console.WriteLine("contatado com sucesso");
 
-
-            return false;
+            return true;
         }
 
     }
